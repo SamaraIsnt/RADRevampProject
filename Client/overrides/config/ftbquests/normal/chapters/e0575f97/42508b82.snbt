@@ -1,0 +1,77 @@
+{
+	title: "A Total Conversion",
+	icon: "roots:ritual_transmutation",
+	x: 2.5d,
+	y: -6.0d,
+	description: "Total metamorphosis",
+	text: [
+		"With the power of the fey convert nearby objects into entirely different objects. ",
+		"",
+		"Remeber to avoid loops!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "82e4b865",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	},
+	{
+		uid: "edaa0747",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}]
+	},
+	{
+		uid: "50fc3f82",
+		type: "item",
+		items: [{
+			item: "roots:chiseled_runestone"
+		}]
+	},
+	{
+		uid: "84a36f4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "c02c855f",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}]
+	}],
+	rewards: [{
+		uid: "98af565d",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "03a7effb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8af8e8a8",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

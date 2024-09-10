@@ -1,0 +1,80 @@
+{
+	title: "You Really Are....",
+	icon: "roots:ritual_warding_protection",
+	x: -1.0d,
+	y: -8.0d,
+	description: "Invincible!",
+	text: [
+		"An immensely powerful ritual that negates the death of lifeform within it's range."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "fc4a7b96",
+		type: "item",
+		items: [{
+			item: "minecraft:speckled_melon"
+		}]
+	},
+	{
+		uid: "8a61c4d5",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "5486c602",
+		type: "item",
+		items: [{
+			id: "minecraft:shield",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8f1b8180",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "e0f129eb",
+		type: "item",
+		items: [{
+			item: "roots:stalicripe"
+		}]
+	}],
+	rewards: [{
+		uid: "fb305bbd",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "9e82d9a4",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "98a85d3e",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

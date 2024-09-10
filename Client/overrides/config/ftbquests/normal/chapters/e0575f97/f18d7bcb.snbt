@@ -1,0 +1,85 @@
+{
+	title: "Under The Weather",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_storm_cloud"
+			}
+		}
+	},
+	x: 1.0d,
+	y: 7.5d,
+	description: "Along came zeus",
+	text: [
+		"Summon the power of zeus in the form of a small cloud above your head."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "139b31bb",
+		type: "item",
+		items: [{
+			item: "roots:dewgonia"
+		}]
+	},
+	{
+		uid: "0ca07807",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "47d29af4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sugarcane",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sugarcane"
+				}
+			}
+		}]
+	},
+	{
+		uid: "1890c144",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	},
+	{
+		uid: "1381bcd3",
+		type: "item",
+		items: [{
+			item: "minecraft:red_flower 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2e630bd6",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "50b36c33",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6b6005ff",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

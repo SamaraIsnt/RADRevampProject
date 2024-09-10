@@ -1,0 +1,39 @@
+{
+	title: "[Place Holder Title]",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"90edb6b4"
+	],
+	tasks: [{
+		uid: "811fe9e6",
+		type: "item",
+		items: [{
+			id: "roots:herb_pouch",
+			tag: {
+				bag_idMost: -6692298396010526057L,
+				bag_idLeast: -6486957442646732757L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fffdf3eb",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "b45f1098",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "062ccef2",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

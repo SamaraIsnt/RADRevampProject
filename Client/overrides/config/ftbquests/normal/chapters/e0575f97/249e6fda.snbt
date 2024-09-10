@@ -1,0 +1,129 @@
+{
+	title: "[Place Holder Title]",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"21229234"
+	],
+	tasks: [{
+		uid: "4482b5b0",
+		type: "item",
+		items: [{
+			id: "roots:stone_knife",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 5409482112278285322L,
+						UUIDLeast: -7419382709584745954L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 9082417692410596010L,
+						UUIDLeast: -4725136436283654311L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f8b51d42",
+		type: "item",
+		items: [{
+			id: "roots:iron_knife",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -5976152459188944639L,
+						UUIDLeast: -7778364351727757043L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 1415471007286644044L,
+						UUIDLeast: -5668466719137182075L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 146032276905347447L,
+						UUIDLeast: -4681549052652304626L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -187427157937010646L,
+						UUIDLeast: -5379115304030958354L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "20307134",
+		type: "item",
+		items: [{
+			id: "roots:gold_knife",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd27c6e7",
+		type: "item",
+		items: [{
+			id: "roots:diamond_knife",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3fa0c157",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "7bfad909",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

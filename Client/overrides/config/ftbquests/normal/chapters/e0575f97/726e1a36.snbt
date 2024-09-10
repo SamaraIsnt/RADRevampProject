@@ -1,0 +1,81 @@
+{
+	title: "You Calm Down",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_geas"
+			}
+		}
+	},
+	x: 2.0d,
+	y: 4.5d,
+	description: "No fighting",
+	text: [
+		"Ever get that one monster who's to strong for it's own good and it's trapped you in a corner.",
+		"",
+		"Introducing geas to solve your problems.",
+		"",
+		"A simple but strong spell when used on a mob that mob will be unable to attack the caster for a short duration."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "94200c56",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}]
+	},
+	{
+		uid: "0d4e00e3",
+		type: "item",
+		items: [{
+			item: "minecraft:lead"
+		}]
+	},
+	{
+		uid: "f21b15be",
+		type: "item",
+		items: [{
+			id: "minecraft:fishing_rod",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f8151959",
+		type: "item",
+		items: [{
+			item: "roots:terra_spores"
+		}]
+	},
+	{
+		uid: "953890f2",
+		type: "item",
+		items: [{
+			item: "roots:baffle_cap_mushroom"
+		}]
+	}],
+	rewards: [{
+		uid: "fb553895",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "158a8d23",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "fbe304c9",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

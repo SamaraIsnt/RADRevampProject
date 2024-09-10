@@ -1,7 +1,7 @@
 {
 	title: "Magicrafting",
-	x: -2.0d,
-	y: -2.0d,
+	x: -3.0d,
+	y: 0.0d,
 	description: "No, not that kind",
 	text: [
 		"The Fey Crafter is another main crafting block in the mod. "
@@ -9,6 +9,7 @@
 	dependencies: [
 		"90edb6b4"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "518e756e",
 		type: "item",

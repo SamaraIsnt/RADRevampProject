@@ -1,0 +1,72 @@
+{
+	title: "En Garde",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_disarm"
+			}
+		}
+	},
+	x: -1.0d,
+	y: 4.5d,
+	description: "MY ARMS!!!!!",
+	text: [
+		"Sadly this spell won't remove arms, Instead it does is disarm whoever it lands on."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "8a287d92",
+		type: "item",
+		items: [{
+			item: "roots:moonglow_leaf"
+		}]
+	},
+	{
+		uid: "5eef46d3",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	},
+	{
+		uid: "0abaf6c6",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}]
+	},
+	{
+		uid: "de69805c",
+		type: "item",
+		items: [{
+			item: "minecraft:tripwire_hook"
+		}]
+	},
+	{
+		uid: "703c0c1d",
+		type: "item",
+		items: [{
+			item: "roots:moonglow_leaf"
+		}]
+	}],
+	rewards: [{
+		uid: "33944d70",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "48ca2a3d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c73ba467",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

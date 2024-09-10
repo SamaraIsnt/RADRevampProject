@@ -1,0 +1,32 @@
+{
+	title: "Dewly Departed",
+	x: -11.0d,
+	y: -1.0d,
+	description: "Dewgonia? I hardly know her",
+	text: [
+		"The dewiest of plants. ",
+		"",
+		"Dewgonia is one of the one of the primary plants used in creating spells and rituals."
+	],
+	dependencies: [
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "1d30f833",
+		type: "item",
+		items: [{
+			item: "roots:dewgonia"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b3748f68",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "386a961d",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

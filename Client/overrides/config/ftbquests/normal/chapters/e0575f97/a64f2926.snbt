@@ -1,0 +1,102 @@
+{
+	title: "[Place holder title]",
+	x: -3.0d,
+	y: -4.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"a80da1d6"
+	],
+	tasks: [{
+		uid: "57bf8017",
+		type: "item",
+		items: [{
+			id: "roots:sylvan_helmet",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 2813469170177559923L,
+						UUIDLeast: -5865932975799476712L,
+						Amount: 0.5d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f64a4591",
+		type: "item",
+		items: [{
+			id: "roots:sylvan_chestplate",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8f1bb09",
+		type: "item",
+		items: [{
+			id: "roots:sylvan_leggings",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -3295694357720054951L,
+						UUIDLeast: -6331149787943042006L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef6f4161",
+		type: "item",
+		items: [{
+			id: "roots:sylvan_boots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31acb71c",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "f0b21b4b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7e2ea202",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

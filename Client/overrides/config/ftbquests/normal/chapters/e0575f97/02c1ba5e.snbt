@@ -1,0 +1,64 @@
+{
+	title: "Its Rainning It's Pouring",
+	icon: "roots:ritual_heavy_storms",
+	x: -1.0d,
+	y: -6.0d,
+	description: "The old villager is snoring",
+	text: [
+		"Invoke the power of zeus to summon a new storm to bathe the land!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "a1e77b56",
+		type: "item",
+		items: [{
+			item: "minecraft:waterlily"
+		}]
+	},
+	{
+		uid: "728bad1f",
+		type: "item",
+		items: [{
+			item: "minecraft:vine"
+		}]
+	},
+	{
+		uid: "320428b0",
+		type: "item",
+		items: [{
+			item: "minecraft:snowball"
+		}]
+	},
+	{
+		uid: "ddb9b05f",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}]
+	},
+	{
+		uid: "97bf16e7",
+		type: "item",
+		items: [{
+			item: "roots:dewgonia"
+		}]
+	}],
+	rewards: [{
+		uid: "eb7885c3",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "0ddbdc26",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ec4fa76c",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

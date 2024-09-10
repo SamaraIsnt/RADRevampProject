@@ -1,0 +1,19 @@
+{
+	title: "[Place Holder Title]",
+	x: -5.5d,
+	y: -2.5d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "3a673d16",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil"
+		}],
+		count: 32L
+	}]
+}

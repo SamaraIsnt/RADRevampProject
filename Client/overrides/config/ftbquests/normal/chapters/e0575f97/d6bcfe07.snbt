@@ -1,0 +1,72 @@
+{
+	title: "SANCUTARY SANCTUARY",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_sanctuary"
+			}
+		}
+	},
+	x: -2.0d,
+	y: 4.5d,
+	description: "No no circle",
+	text: [
+		"The ultimate personal space spell never worry about zombies trying to bite at your ankles again as long as you have this on standby."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "2b575b0a",
+		type: "item",
+		items: [{
+			item: "minecraft:armor_stand"
+		}]
+	},
+	{
+		uid: "41091931",
+		type: "item",
+		items: [{
+			item: "roots:pereskia"
+		}]
+	},
+	{
+		uid: "cc734e8d",
+		type: "item",
+		items: [{
+			item: "minecraft:bowl"
+		}]
+	},
+	{
+		uid: "7022bb8f",
+		type: "item",
+		items: [{
+			item: "roots:bark_spruce"
+		}]
+	},
+	{
+		uid: "3189d2cf",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	}],
+	rewards: [{
+		uid: "b2f75719",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "08745f8c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "15f083d3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

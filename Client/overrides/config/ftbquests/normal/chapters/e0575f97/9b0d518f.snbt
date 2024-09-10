@@ -1,0 +1,38 @@
+{
+	title: "[Place Holder Title]",
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "93d2566f",
+		type: "item",
+		items: [{
+			id: "roots:runic_shears",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86a25262",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "d2424723",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "d27beb8c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

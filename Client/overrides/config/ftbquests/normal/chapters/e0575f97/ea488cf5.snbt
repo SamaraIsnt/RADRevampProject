@@ -1,0 +1,32 @@
+{
+	title: "A Baffling Mushroom",
+	x: -9.0d,
+	y: -3.0d,
+	description: "MUSHROOM!",
+	text: [
+		"The most baffling of mushrooms and that says alot since we got alot of mushrooms.",
+		"",
+		"The baffle cap is one of the primary plants used in creating spells and rituals"
+	],
+	dependencies: [
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "f2ab5623",
+		type: "item",
+		items: [{
+			item: "roots:baffle_cap_mushroom"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a28d1a1b",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "f51f6fe9",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

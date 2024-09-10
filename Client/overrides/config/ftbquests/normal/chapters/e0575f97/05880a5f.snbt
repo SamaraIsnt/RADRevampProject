@@ -1,0 +1,85 @@
+{
+	title: "Blessing Of The Feys",
+	icon: "roots:ritual_grove_supplication",
+	x: -2.5d,
+	y: -6.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "d0c1d501",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "doorWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any doorWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "6a96900d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}]
+	},
+	{
+		uid: "45f8be1d",
+		type: "item",
+		items: [{
+			item: "roots:petals"
+		}]
+	},
+	{
+		uid: "1c6328f3",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "f2382e61",
+		type: "item",
+		items: [{
+			item: "minecraft:mossy_cobblestone"
+		}]
+	}],
+	rewards: [{
+		uid: "84778863",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "f3d3940b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c0eeaad3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

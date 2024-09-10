@@ -1,0 +1,29 @@
+{
+	title: "[Place Holder Title]",
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"21229234"
+	],
+	tasks: [{
+		uid: "7714d27b",
+		type: "item",
+		items: [{
+			item: "roots:bark_wildwood"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "9d2766c9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "b1bed427",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

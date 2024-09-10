@@ -1,0 +1,88 @@
+{
+	title: "Cruetly Free Butchery",
+	icon: "roots:ritual_animal_harvest",
+	x: -1.0d,
+	y: -7.0d,
+	description: "Pacifist%",
+	text: [
+		"If you ever feel guilty about killing defenless animals this ritual is just for you!",
+		"",
+		"Animal harvest, harvest the drops of nearby passive mobs without harming them."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "1a7dc077",
+		type: "item",
+		items: [{
+			item: "roots:wildewheet"
+		}]
+	},
+	{
+		uid: "bf7c81e5",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}]
+	},
+	{
+		uid: "c81bdb71",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "e727ca86",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "slimeball",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any slimeball"
+				}
+			}
+		}]
+	},
+	{
+		uid: "657b5a1a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "wool",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any wool"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a710cb4d",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "08ecd34e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c133ee92",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

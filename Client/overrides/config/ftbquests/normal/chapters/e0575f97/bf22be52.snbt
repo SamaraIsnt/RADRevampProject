@@ -1,0 +1,132 @@
+{
+	title: "Reconstruct What!?",
+	x: -3.0d,
+	y: 2.5d,
+	description: "Oh wait their's something left",
+	text: [
+		"The next tier of tools in the roots family are the terrastone series.",
+		"",
+		"They boast both increased mining and repair speed and better durabillity."
+	],
+	dependencies: [
+		"55f0d87a"
+	],
+	tasks: [{
+		uid: "3f487814",
+		type: "item",
+		items: [{
+			id: "roots:terrastone_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fbce7216",
+		type: "item",
+		items: [{
+			id: "roots:terrastone_axe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -4963349236221720156L,
+						UUIDLeast: -6091703141324579623L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4873710026912843495L,
+						UUIDLeast: -5182882298303627711L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4255b81b",
+		type: "item",
+		items: [{
+			id: "roots:terrastone_shovel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -6191043228604740579L,
+						UUIDLeast: -8097023794913732525L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "34099e88",
+		type: "item",
+		items: [{
+			id: "roots:terrastone_hoe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4551669031367494207L,
+						UUIDLeast: -5482558309024181521L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -7610245653311240449L,
+						UUIDLeast: -4954993200817105235L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ec6c375c",
+		type: "item",
+		items: [{
+			id: "roots:terrastone_sword",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

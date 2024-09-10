@@ -1,0 +1,96 @@
+{
+	title: "Watch Your Step",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_rose_thorns"
+			}
+		}
+	},
+	x: 1.0d,
+	y: 4.5d,
+	description: "Even the most beautiful roses have thorns",
+	text: [
+		"Rose thorn is a simple spell were ever the spell lands it creats a trap.",
+		"",
+		"When this trap is activated it explodes, applying poison and slow to any poor fool that steps into it."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "cba50773",
+		type: "item",
+		items: [{
+			item: "minecraft:cactus"
+		}]
+	},
+	{
+		uid: "7b3f0f2e",
+		type: "item",
+		items: [{
+			item: "minecraft:double_plant 1 4"
+		}]
+	},
+	{
+		uid: "d2f3905c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stickWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stickWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "535e824e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeRed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeRed"
+				}
+			}
+		}]
+	},
+	{
+		uid: "d0758b47",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}]
+	}],
+	rewards: [{
+		uid: "7c58a694",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "93b83f9c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d7a3c4d4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

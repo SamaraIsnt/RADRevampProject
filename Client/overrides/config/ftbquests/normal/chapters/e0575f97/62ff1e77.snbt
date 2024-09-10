@@ -1,0 +1,79 @@
+{
+	title: "PRAISE THE SUN!!",
+	icon: "roots:ritual_divine_protection",
+	x: 0.0d,
+	y: -5.0d,
+	description: "Bathe in it's warmth and light",
+	text: [
+		"You like the sun?",
+		"",
+		"This spell is the sun SMITE THE UNDEAD WITH ITS FLAMES!",
+		"",
+		"Make the day last longer and make night go by faster."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "ac6066ba",
+		type: "item",
+		items: [{
+			item: "roots:pereskia"
+		}]
+	},
+	{
+		uid: "1d78a65a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "dc8abf1c",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	},
+	{
+		uid: "41383a13",
+		type: "item",
+		items: [{
+			item: "roots:bark_oak"
+		}]
+	},
+	{
+		uid: "4a330647",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}]
+	}],
+	rewards: [{
+		uid: "51ac383c",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "36cb3cfe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "689e86c2",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

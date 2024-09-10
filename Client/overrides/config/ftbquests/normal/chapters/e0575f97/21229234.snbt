@@ -1,0 +1,30 @@
+{
+	title: "[Place Holder Title]",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"8b36541a"
+	],
+	tasks: [{
+		uid: "f64f9d94",
+		type: "item",
+		items: [{
+			item: "roots:wood_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a674838",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b833c04b",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

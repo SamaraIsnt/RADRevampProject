@@ -30,7 +30,8 @@
 		items: [{
 			item: "minecraft:glass"
 		}],
-		count: 1000L
+		count: 1000L,
+		consume_items: true
 	},
 	{
 		uid: "7d920ddc",
@@ -38,7 +39,8 @@
 		items: [{
 			item: "mysticalagriculture:fire_essence"
 		}],
-		count: 250L
+		count: 250L,
+		consume_items: true
 	},
 	{
 		uid: "27b76db4",

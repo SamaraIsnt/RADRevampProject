@@ -1,0 +1,91 @@
+{
+	title: "I Want To Suck Your Blood",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_life_drain"
+			}
+		}
+	},
+	x: -2.0d,
+	y: 6.5d,
+	description: "Don't we already have vampires?",
+	text: [
+		"Suck the lifeforce out of anything in sight, any missing health will also be restored by this spell."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "3f0476bf",
+		type: "item",
+		items: [{
+			item: "roots:baffle_cap_mushroom"
+		}]
+	},
+	{
+		uid: "f8fa3ef1",
+		type: "item",
+		items: [{
+			item: "roots:moonglow_leaf"
+		}]
+	},
+	{
+		uid: "686589e3",
+		type: "item",
+		items: [{
+			item: "roots:moonglow_seed"
+		}]
+	},
+	{
+		uid: "b535e372",
+		type: "item",
+		items: [{
+			id: "minecraft:stone_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -2954515551013222796L,
+						UUIDLeast: -4890836085016395293L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ce938b3e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_bars"
+		}]
+	}],
+	rewards: [{
+		uid: "d83f0caf",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "a3911740",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "031badcc",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

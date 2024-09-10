@@ -1,0 +1,29 @@
+{
+	title: "[Place Holder Title]",
+	x: -3.0d,
+	y: -3.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"9b0d518f"
+	],
+	tasks: [{
+		uid: "8f56efe5",
+		type: "item",
+		items: [{
+			item: "roots:fey_leather"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f1ef49c4",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "a867932d",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

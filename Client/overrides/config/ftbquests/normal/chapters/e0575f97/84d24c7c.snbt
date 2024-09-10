@@ -1,0 +1,86 @@
+{
+	title: "Achooo!",
+	icon: "roots:ritual_frost_lands",
+	x: -1.5d,
+	y: -4.0d,
+	description: "Bless you",
+	text: [
+		"Unless your inner frozen princess with this ritual and lay the wrath of winter onto the surronding land."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "04bfaa35",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sugarcane",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sugarcane"
+				}
+			}
+		}]
+	},
+	{
+		uid: "22122e37",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "vine",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any vine"
+				}
+			}
+		}]
+	},
+	{
+		uid: "8a37d46f",
+		type: "item",
+		items: [{
+			item: "roots:bark_spruce"
+		}]
+	},
+	{
+		uid: "0a482b0f",
+		type: "item",
+		items: [{
+			item: "roots:bark_spruce"
+		}]
+	},
+	{
+		uid: "57982e8f",
+		type: "item",
+		items: [{
+			item: "roots:dewgonia"
+		}]
+	}],
+	rewards: [{
+		uid: "4f37cefc",
+		type: "loot",
+		table: 8
+	},
+	{
+		uid: "437ff86c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d563c1ae",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

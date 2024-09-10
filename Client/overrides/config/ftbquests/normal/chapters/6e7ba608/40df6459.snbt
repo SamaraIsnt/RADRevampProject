@@ -28,6 +28,7 @@
 				DrinkID: 2b
 			}
 		}],
+		consume_items: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -49,6 +50,7 @@
 				DrinkID: 4b
 			}
 		}],
+		consume_items: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -70,6 +72,7 @@
 				DrinkID: 3b
 			}
 		}],
+		consume_items: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -91,6 +94,7 @@
 				DrinkID: 1b
 			}
 		}],
+		consume_items: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -109,6 +113,7 @@
 				DrinkID: 5b
 			}
 		}],
+		consume_items: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -127,6 +132,7 @@
 				DrinkID: 6b
 			}
 		}],
+		consume_items: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -148,6 +154,7 @@
 				DrinkID: 8b
 			}
 		}],
+		consume_items: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

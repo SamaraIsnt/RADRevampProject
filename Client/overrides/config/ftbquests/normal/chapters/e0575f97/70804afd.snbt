@@ -1,0 +1,42 @@
+{
+	title: "[Place Holder Title]",
+	x: 5.0d,
+	y: -3.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"a541b9a1"
+	],
+	tasks: [{
+		uid: "5b34736b",
+		type: "item",
+		items: [{
+			item: "roots:runed_obsidian"
+		}],
+		count: 8L
+	},
+	{
+		uid: "11125c1e",
+		type: "item",
+		items: [{
+			item: "roots:chiseled_runed_obsidian"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ba663fbc",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "77f087c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d3da52cf",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "[Place Holder Title]",
+	x: 3.5d,
+	y: 1.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"173f01bb"
+	],
+	tasks: [{
+		uid: "cd17d33b",
+		type: "item",
+		items: [{
+			id: "roots:apothecary_pouch",
+			tag: {
+				bag_idMost: 6192121187719006876L,
+				bag_idLeast: -8951236220059462032L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17faa9e5",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "565ccb0e",
+		type: "loot",
+		table: 64
+	},
+	{
+		uid: "fecbb096",
+		type: "loot",
+		table: 63
+	}]
+}

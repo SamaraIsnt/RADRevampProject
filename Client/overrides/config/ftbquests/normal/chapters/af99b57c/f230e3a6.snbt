@@ -4,12 +4,19 @@
 	y: -5.5d,
 	description: "The sun is next on your list",
 	text: [
-		""
+		"§4An apex of all vampires, The harbinger of twilight and end of all warm blooded life.",
+		"",
+		"§4The very idea of your name is enough to send dread to all who oppose you.",
+		"",
+		"§4THEIR BLOOD WAS YOUR FUEL",
+		"",
+		"§4BUT HAS YOUR BLOODLUST BEEN SATIATED!"
 	],
 	dependencies: [
 		"824b664e"
 	],
 	hide: true,
+	hide_text_until_complete: true,
 	tasks: [{
 		uid: "fefa6883",
 		type: "advancement",

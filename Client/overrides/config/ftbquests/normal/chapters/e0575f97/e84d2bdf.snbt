@@ -1,0 +1,37 @@
+{
+	title: "Imbuing 101",
+	x: 1.0d,
+	y: 3.5d,
+	text: [
+		"So you wanna learn? "
+	],
+	dependencies: [
+		"90edb6b4"
+	],
+	tasks: [{
+		uid: "73345058",
+		type: "item",
+		items: [{
+			item: "roots:imbuer"
+		}]
+	},
+	{
+		uid: "2584d106",
+		type: "item",
+		items: [{
+			item: "roots:gramary"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "091dbd8c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "ada41937",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

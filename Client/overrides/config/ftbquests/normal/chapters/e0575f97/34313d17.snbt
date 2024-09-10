@@ -1,0 +1,64 @@
+{
+	title: "Clean Up Your Room",
+	icon: "roots:ritual_gathering",
+	x: 1.5d,
+	y: -4.0d,
+	description: "If only it was really this easy",
+	text: [
+		"Call upon the power of magic to clean up after you and store away any messes!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "585de79f",
+		type: "item",
+		items: [{
+			item: "minecraft:slime_ball"
+		}]
+	},
+	{
+		uid: "3d0daabd",
+		type: "item",
+		items: [{
+			item: "mysticalworld:aubergine_seed"
+		}]
+	},
+	{
+		uid: "8f316158",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	},
+	{
+		uid: "4875a039",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "b42a6d15",
+		type: "item",
+		items: [{
+			item: "roots:wildewheet"
+		}]
+	}],
+	rewards: [{
+		uid: "0b3a80da",
+		type: "loot",
+		table: 8
+	},
+	{
+		uid: "ba0a3ed6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "9955378e",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

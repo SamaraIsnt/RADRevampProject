@@ -1,0 +1,28 @@
+{
+	title: "[Place Holder Title]",
+	x: 2.5d,
+	y: -2.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"90edb6b4"
+	],
+	tasks: [{
+		uid: "4355a0e2",
+		type: "item",
+		items: [{
+			item: "roots:grove_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "98e38ae7",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "75287bcc",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

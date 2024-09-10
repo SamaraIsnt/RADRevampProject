@@ -1,0 +1,30 @@
+{
+	title: "Tall Rice!? Stall Price?? Stalk Pipes!!",
+	x: -12.0d,
+	y: 0.0d,
+	description: "Good luck pronouncing it's name",
+	text: [
+		"The Stalicripe also nicknamed annoying to pronounce name plants is one of the primary plants used in creating spells and rituals."
+	],
+	dependencies: [
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "bea8b251",
+		type: "item",
+		items: [{
+			item: "roots:stalicripe"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5e57a09c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "441cb566",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

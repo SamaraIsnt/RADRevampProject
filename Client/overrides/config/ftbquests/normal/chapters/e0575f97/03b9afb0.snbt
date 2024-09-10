@@ -1,0 +1,102 @@
+{
+	title: "Reap & Sow",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_natures_scythe"
+			}
+		}
+	},
+	x: -2.0d,
+	y: 5.5d,
+	description: "Until it is done",
+	text: [
+		"Unlike the previous spells Scythe must be modified in an imbuer to have any effect."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "cc817acb",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "092bd5e5",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "b618ec60",
+		type: "item",
+		items: [{
+			item: "mysticalworld:aubergine"
+		}]
+	},
+	{
+		uid: "b124bb21",
+		type: "item",
+		items: [{
+			id: "minecraft:stone_hoe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -406337016774832627L,
+						UUIDLeast: -8224978527864053100L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9462c19f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "tallgrass",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any tallgrass"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8cc8080c",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "d23ddd18",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a2186b7e",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

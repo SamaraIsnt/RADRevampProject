@@ -1,0 +1,76 @@
+{
+	title: "Boil & Bubble",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_aqua_bubble"
+			}
+		}
+	},
+	x: 0.0d,
+	y: 4.5d,
+	description: "Bubbly jubbly",
+	text: [
+		"If you ever wanted to take a dip in lava without the side effect of being cooked alive?",
+		"",
+		"When used aqua bubble negates fire and lava damage, meaning you can finally make that lava hot tub."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "df14ba66",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2486efce",
+		type: "item",
+		items: [{
+			item: "roots:dewgonia"
+		}]
+	},
+	{
+		uid: "795eddf3",
+		type: "item",
+		items: [{
+			item: "minecraft:snowball"
+		}]
+	},
+	{
+		uid: "f5555e5a",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	},
+	{
+		uid: "513ba83a",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "94e496f1",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "dd20944a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3c3455c9",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

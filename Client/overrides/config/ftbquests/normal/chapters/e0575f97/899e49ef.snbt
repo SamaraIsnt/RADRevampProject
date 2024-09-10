@@ -1,0 +1,31 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	dependencies: [
+		"249e6fda"
+	],
+	tasks: [{
+		uid: "0a283b0e",
+		type: "item",
+		items: [{
+			item: "roots:runed_dagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07389033",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "9532bd0d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "945d941e",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

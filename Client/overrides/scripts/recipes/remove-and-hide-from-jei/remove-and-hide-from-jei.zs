@@ -75,10 +75,8 @@ rh(<inventorypets:slime_pet>);
 rh(<extrautils2:snowglobe>);
 
 //#Thaumic Wonders
+//Re enabled due to memory leak being fixed to lazy to delete file
 
-rh(<thaumicwonders:void_fortress_helm>);
-rh(<thaumicwonders:void_fortress_chest>);
-rh(<thaumicwonders:void_fortress_legs>);
 
 //#Prefab
 

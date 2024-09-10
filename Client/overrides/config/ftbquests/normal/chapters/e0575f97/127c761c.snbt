@@ -1,0 +1,108 @@
+{
+	title: "Up Up Up & AWAY!",
+	icon: "roots:ritual_windwall",
+	x: 0.0d,
+	y: -6.0d,
+	description: "Revali's gale is now ready",
+	text: [
+		"Send mobs flying away with this powerful draft!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "26a3e61f",
+		type: "item",
+		items: [{
+			item: "roots:moonglow_leaf"
+		}]
+	},
+	{
+		uid: "40a60c07",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "89cb19ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "allFlowers",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any allFlowers"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5943c491",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "3fb05780",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stonebrick",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stonebrick"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "38c30d4a",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "09f55d23",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "bbc7f860",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

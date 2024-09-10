@@ -1,0 +1,83 @@
+{
+	title: "I Don't Want To Set The World On Fire",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_wild_fire"
+			}
+		}
+	},
+	x: -1.0d,
+	y: 5.5d,
+	description: "I cast fireball",
+	text: [
+		"Set your foes a blaze with this spell!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "f36622f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeOrange",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeOrange"
+				}
+			}
+		}]
+	},
+	{
+		uid: "02383f2e",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	},
+	{
+		uid: "720b758a",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}]
+	},
+	{
+		uid: "25b720e3",
+		type: "item",
+		items: [{
+			item: "roots:infernal_bulb"
+		}]
+	},
+	{
+		uid: "c3810632",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "eea34f3e",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "2d95200e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a68c7bd8",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,107 @@
+{
+	title: "Budget Kamehameha",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_radiance"
+			}
+		}
+	},
+	x: 1.0d,
+	y: 6.5d,
+	description: "i'm a firin mah lazer",
+	text: [
+		"Create a small beam of light that has the ability to bounce off walls and seer through your enemies.",
+		"",
+		"What it lacks in power it makes up for in being able to pierce multiple oppenents!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "161465f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSilver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSilver"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5876963f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeYellow",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeYellow"
+				}
+			}
+		}]
+	},
+	{
+		uid: "adc3ce6a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "torch",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any torch"
+				}
+			}
+		}]
+	},
+	{
+		uid: "d6e102b3",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}]
+	},
+	{
+		uid: "b6444148",
+		type: "item",
+		items: [{
+			item: "roots:pereskia"
+		}]
+	}],
+	rewards: [{
+		uid: "40d9f53f",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "acab52b5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5c062685",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

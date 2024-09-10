@@ -1,0 +1,74 @@
+{
+	title: "Fullmetal Herbologist",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_chrysopoeia"
+			}
+		}
+	},
+	x: -3.0d,
+	y: 7.5d,
+	description: "Transformation or transmogrification",
+	text: [
+		"An immensenly powerful spell that can convert one item into a completely differnet one.",
+		"",
+		"For a full list of recipes check JEI."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "6d877c66",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "cdf7571d",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	},
+	{
+		uid: "b4eb621c",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	},
+	{
+		uid: "7d135d56",
+		type: "item",
+		items: [{
+			item: "minecraft:magma_cream"
+		}]
+	},
+	{
+		uid: "b11046f4",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "88613ff0",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "d040ddbc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "838e6120",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

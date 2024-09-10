@@ -1,0 +1,2 @@
+<naturescompass:naturescompass>.addTooltip(format.white("This item sometimes does not work correctly with otg worlds use with caution while in the overworld."));
+mods.jei.JEI.addDescription(<naturescompass:naturescompass>,"Due to the way the otg the default world type the modpack uses world generation the biomes are not registered accurately meaning that the nature compass can have issues locating biomes sometimes in the overworld.");

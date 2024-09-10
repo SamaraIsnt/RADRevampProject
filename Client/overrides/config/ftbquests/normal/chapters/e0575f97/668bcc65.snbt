@@ -1,0 +1,83 @@
+{
+	title: "Maybe You Just Smell Bad?",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_acid_cloud"
+			}
+		}
+	},
+	x: 2.0d,
+	y: 6.5d,
+	description: "Wait can mobs even smell",
+	text: [
+		"Unleash a acidic aura melting away your foes."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "cb302a46",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "eye",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any eye"
+				}
+			}
+		}]
+	},
+	{
+		uid: "4b7f40d4",
+		type: "item",
+		items: [{
+			item: "roots:baffle_cap_mushroom"
+		}]
+	},
+	{
+		uid: "0b8d0ed6",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 10"
+		}]
+	},
+	{
+		uid: "1be6a524",
+		type: "item",
+		items: [{
+			item: "roots:runic_dust"
+		}]
+	},
+	{
+		uid: "9e190e1d",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}]
+	}],
+	rewards: [{
+		uid: "4052b0f2",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "f0ed7286",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8ad4e3c8",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

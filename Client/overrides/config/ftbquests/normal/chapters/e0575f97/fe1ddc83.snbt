@@ -1,0 +1,72 @@
+{
+	title: "Hungry Hungry Staff",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_saturate"
+			}
+		}
+	},
+	x: 0.0d,
+	y: 5.5d,
+	description: "Just don't feed it after midnight",
+	text: [
+		"For when your feeling extra lazy have magic feed you instead of wasting time and eating yourself."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "d887c5d8",
+		type: "item",
+		items: [{
+			item: "minecraft:mushroom_stew"
+		}]
+	},
+	{
+		uid: "87964c62",
+		type: "item",
+		items: [{
+			item: "minecraft:milk_bucket"
+		}]
+	},
+	{
+		uid: "8bbf33df",
+		type: "item",
+		items: [{
+			item: "mysticalworld:cooked_aubergine"
+		}]
+	},
+	{
+		uid: "7790cbd9",
+		type: "item",
+		items: [{
+			item: "minecraft:egg"
+		}]
+	},
+	{
+		uid: "20bea213",
+		type: "item",
+		items: [{
+			item: "roots:wildewheet"
+		}]
+	}],
+	rewards: [{
+		uid: "673186f9",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "a3184577",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "eb52a90e",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

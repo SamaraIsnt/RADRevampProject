@@ -1,0 +1,83 @@
+{
+	title: "A Hungry Exchange",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_desaturate"
+			}
+		}
+	},
+	x: -1.0d,
+	y: 6.5d,
+	description: "How hungry",
+	text: [
+		"In exchange for your hunger recoever a portion of your health back."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "7d10017c",
+		type: "item",
+		items: [{
+			item: "minecraft:bowl"
+		}]
+	},
+	{
+		uid: "b18fa983",
+		type: "item",
+		items: [{
+			item: "roots:petals"
+		}]
+	},
+	{
+		uid: "b06c6052",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}]
+	},
+	{
+		uid: "69cc4e65",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "bone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bone"
+				}
+			}
+		}]
+	},
+	{
+		uid: "7569d4ef",
+		type: "item",
+		items: [{
+			item: "roots:spirit_herb"
+		}]
+	}],
+	rewards: [{
+		uid: "3106e0c1",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "a8304139",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6dcb8a6e",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

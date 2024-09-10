@@ -1,0 +1,94 @@
+{
+	title: "All Seeing Eye",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_extension"
+			}
+		}
+	},
+	x: -3.0d,
+	y: 6.5d,
+	description: "I can see everything",
+	text: [
+		"The extension spell is another spell that requires an imposer to fully utilize it's capabillties.",
+		"",
+		"Extension main focus is on utility type buffs that focus on exploration/ revealing information."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "879bf966",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	},
+	{
+		uid: "71ef7bdf",
+		type: "item",
+		items: [{
+			id: "minecraft:stone_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f3428ca0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "eye",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any eye"
+				}
+			}
+		}]
+	},
+	{
+		uid: "cec5d794",
+		type: "item",
+		items: [{
+			id: "minecraft:compass",
+			tag: {
+				"quark:compass_calculated": 1b,
+				"quark:compass_in_nether": 0b
+			}
+		}]
+	},
+	{
+		uid: "0a4b0bc3",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_carrot"
+		}]
+	}],
+	rewards: [{
+		uid: "c687631d",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "a7338ae3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "db398086",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "[Place Holder Title]",
+	x: -6.5d,
+	y: -3.5d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"0d077eb6"
+	],
+	tasks: [{
+		uid: "08357342",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_air"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9d4cf682",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_fire"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9f970466",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_earth"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b2733b10",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_water"
+		}],
+		count: 16L
+	}]
+}

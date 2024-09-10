@@ -1,0 +1,72 @@
+{
+	title: "Fus Ro Dah",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_dandelion_winds"
+			}
+		}
+	},
+	x: 0.0d,
+	y: 7.5d,
+	description: "Blasting off again",
+	text: [
+		"Launch your enemies sky high with the power of dandelion winds!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "d4372071",
+		type: "item",
+		items: [{
+			item: "minecraft:yellow_flower"
+		}]
+	},
+	{
+		uid: "493b87ed",
+		type: "item",
+		items: [{
+			item: "minecraft:leaves"
+		}]
+	},
+	{
+		uid: "ee8a6d48",
+		type: "item",
+		items: [{
+			item: "roots:runic_dust"
+		}]
+	},
+	{
+		uid: "3ecb279a",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}]
+	},
+	{
+		uid: "cdfdf73c",
+		type: "item",
+		items: [{
+			item: "roots:terra_spores"
+		}]
+	}],
+	rewards: [{
+		uid: "7f7a9c35",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "f33ea4ea",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "861d3a33",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

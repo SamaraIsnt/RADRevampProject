@@ -1,0 +1,76 @@
+{
+	title: "[Place Holder Title]",
+	x: 5.0d,
+	y: -1.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"8b36541a",
+		"21229234"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "97add886",
+		type: "item",
+		items: [{
+			item: "roots:runed_oak"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1c8033c4",
+		type: "item",
+		items: [{
+			item: "roots:runed_birch"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5ed6ea3f",
+		type: "item",
+		items: [{
+			item: "roots:runed_spruce"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5d2c118e",
+		type: "item",
+		items: [{
+			item: "roots:runed_jungle"
+		}],
+		count: 16L
+	},
+	{
+		uid: "90a8acd2",
+		type: "item",
+		items: [{
+			item: "roots:runed_dark_oak"
+		}],
+		count: 16L
+	},
+	{
+		uid: "55772479",
+		type: "item",
+		items: [{
+			item: "roots:runed_acacia"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "445ded1d",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "b8bcb76d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "c2a8b32e",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

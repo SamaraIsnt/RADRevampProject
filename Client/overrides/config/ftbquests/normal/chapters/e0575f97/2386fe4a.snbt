@@ -1,0 +1,19 @@
+{
+	title: "[Place Holder Title]",
+	x: 5.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"21229234"
+	],
+	tasks: [{
+		uid: "6ad4b621",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}],
+		count: 16L
+	}]
+}

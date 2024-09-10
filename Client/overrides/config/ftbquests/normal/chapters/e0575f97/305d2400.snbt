@@ -1,0 +1,64 @@
+{
+	title: "The Sky Is Falling",
+	icon: "roots:ritual_fire_storm",
+	x: 1.0d,
+	y: -8.0d,
+	description: "Hope you packed your umbrella",
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "38d63266",
+		type: "item",
+		items: [{
+			item: "roots:infernal_bulb"
+		}]
+	},
+	{
+		uid: "dd713b53",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	},
+	{
+		uid: "418b26cd",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	},
+	{
+		uid: "cd722002",
+		type: "item",
+		items: [{
+			item: "roots:bark_acacia"
+		}]
+	},
+	{
+		uid: "0d82044c",
+		type: "item",
+		items: [{
+			item: "roots:bark_acacia"
+		}]
+	}],
+	rewards: [{
+		uid: "e97484b0",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "c161554e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "bcd6004e",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

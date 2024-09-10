@@ -1,0 +1,32 @@
+{
+	title: "Clouds Not Included",
+	x: -10.0d,
+	y: 2.0d,
+	description: "Does cotton candy taste like clouds?",
+	text: [
+		"Don't worry it wont turn into a cloud nor does it taste like one.",
+		"",
+		"The cloudberry is one of the primary plants used in creating spells and rituals"
+	],
+	dependencies: [
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "59d2eb3f",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9e7bd3d9",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "06470934",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

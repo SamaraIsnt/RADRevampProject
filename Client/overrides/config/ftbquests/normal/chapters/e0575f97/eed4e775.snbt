@@ -1,0 +1,78 @@
+{
+	title: "With This Sacred Ritual I Summon!",
+	icon: "roots:ritual_summon_creatures",
+	x: -2.0d,
+	y: -5.0d,
+	description: "Just don't try to summon herobrine!",
+	text: [
+		"To lazy to go out and lure some mobs home to a farm?",
+		"",
+		"Why not spend much more time setting up a ritual to summon them right at home!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5",
+		"57ce1965"
+	],
+	tasks: [{
+		uid: "26d7458d",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "b802edb2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "egg",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any egg"
+				}
+			}
+		}]
+	},
+	{
+		uid: "2fb4c137",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "b78a0915",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}]
+	},
+	{
+		uid: "9b1a23f4",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	}],
+	rewards: [{
+		uid: "2cd93145",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "b2c5593b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "95e71521",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

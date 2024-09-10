@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	dependencies: [
+		"90edb6b4"
+	],
+	tasks: [{
+		uid: "d2a05170",
+		type: "item",
+		items: [{
+			id: "roots:staff",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d52fff4",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "db3e559b",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

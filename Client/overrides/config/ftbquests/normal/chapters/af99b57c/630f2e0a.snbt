@@ -11,12 +11,8 @@
 	tasks: [{
 		uid: "9ef24124",
 		type: "interaction",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "vampirism:hunter_table"
-		},
+		title: "Interact With A Hunter Research Table",
+		icon: "vampirism:hunter_table",
 		match_type: "block_id",
 		match: "vampirism:hunter_table"
 	}],

@@ -1,0 +1,88 @@
+{
+	title: "I Am Wildroot",
+	icon: "roots:ritual_wildroot_growth",
+	x: 2.0d,
+	y: -5.0d,
+	description: "I'm running out of refrences",
+	text: [
+		"Wildwood bark is a requirement for wildwood armour.",
+		"",
+		"The easiest way of getting that is with the wildroot growth ritual which can turn wildroot crops into trees."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "a50018e5",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "cd1c7952",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "998e5e36",
+		type: "item",
+		items: [{
+			item: "roots:spirit_herb"
+		}]
+	},
+	{
+		uid: "2122df6e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "879b4c82",
+		type: "item",
+		items: [{
+			item: "roots:bark_dark_oak"
+		}]
+	}],
+	rewards: [{
+		uid: "b70b96c4",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "038a34a9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a989ef3c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "[Place Holder Title]",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"90edb6b4"
+	],
+	tasks: [{
+		uid: "967fc31d",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0b308410",
+		type: "loot",
+		table: 8
+	}]
+}

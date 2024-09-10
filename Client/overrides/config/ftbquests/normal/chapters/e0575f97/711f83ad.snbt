@@ -1,0 +1,30 @@
+{
+	title: "Cruelty Free Arrows",
+	x: -2.0d,
+	y: 2.5d,
+	description: "Now with 100% less feathers",
+	text: [
+		"Do you dislike chasing chickens to try and get their feathers for arrows?",
+		"",
+		"User living arrows as an alternative option not only are they stronger, but they dont need feathers!"
+	],
+	dependencies: [
+		"e2cde820"
+	],
+	tasks: [{
+		uid: "3bb779f3",
+		type: "item",
+		items: [{
+			item: "roots:living_arrow"
+		}]
+	},
+	{
+		uid: "05b30fbe",
+		type: "item",
+		items: [{
+			item: "roots:wildwood_quiver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

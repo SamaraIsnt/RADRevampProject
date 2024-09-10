@@ -12,16 +12,13 @@
 		"9c854b7e"
 	],
 	hide: true,
+	hide_text_until_complete: true,
 	tasks: [{
 		uid: "5e9ab061",
 		type: "item",
 		title: "Hunter Intel 14",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "vampirism:hunter_intel",
-			Damage: 9s
+			item: "vampirism:hunter_intel 1 9"
 		}]
 	}],
 	rewards: [{

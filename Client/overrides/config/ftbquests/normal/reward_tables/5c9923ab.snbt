@@ -1,0 +1,42 @@
+{
+	title: "Crate Of Random Bark",
+	loot_size: 2,
+	rewards: [{
+		item: "roots:bark_oak",
+		count: 32
+	},
+	{
+		item: "roots:bark_spruce",
+		count: 32
+	},
+	{
+		item: "roots:bark_birch",
+		count: 32
+	},
+	{
+		item: "roots:bark_jungle",
+		count: 32
+	},
+	{
+		item: "roots:bark_dark_oak",
+		count: 32
+	},
+	{
+		item: "roots:bark_acacia",
+		count: 32
+	},
+	{
+		item: "roots:bark_wildwood",
+		count: 16
+	}],
+	loot_crate: {
+		string_id: "crate_of_random_bark",
+		item_name: "Bundle Of Random Bark",
+		color: 5190953,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

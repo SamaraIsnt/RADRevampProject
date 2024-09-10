@@ -1,0 +1,99 @@
+{
+	title: "Reforestation Protocol",
+	icon: "roots:ritual_spreading_forest",
+	x: 1.0d,
+	y: -7.0d,
+	description: "Smokey's gonna give you a golden star",
+	text: [
+		"Roots requires turn into entire forest into plains so to have gaia forgive you of crime against nature.",
+		"",
+		"You can use the power of the fey to rebirth the land."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "994b9900",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}]
+	},
+	{
+		uid: "8ba0f42f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "7350491f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}]
+	},
+	{
+		uid: "bf49fabc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}]
+	},
+	{
+		uid: "1e597989",
+		type: "item",
+		items: [{
+			item: "roots:spirit_herb"
+		}]
+	}],
+	rewards: [{
+		uid: "ea1ec045",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "68c126ea",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "23d05f61",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

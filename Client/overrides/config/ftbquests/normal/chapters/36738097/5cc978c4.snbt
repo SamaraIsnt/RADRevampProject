@@ -10,12 +10,10 @@
 		uid: "205b5f2a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:obsidian"
+			item: "minecraft:obsidian"
 		}],
-		count: 1000000L
+		count: 1000000L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "a3936569",

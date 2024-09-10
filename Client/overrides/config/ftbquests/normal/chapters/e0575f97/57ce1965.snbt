@@ -1,0 +1,21 @@
+{
+	title: "For Display Only",
+	x: 1.5d,
+	y: -2.5d,
+	description: "No touchy!",
+	text: [
+		"Certain rituals requires catalyst to be placed near them.",
+		"",
+		"To place these catalyst place a catalyst plate near your pyre then the required item on the plate."
+	],
+	dependencies: [
+		"90edb6b4"
+	],
+	tasks: [{
+		uid: "d88a2b32",
+		type: "item",
+		items: [{
+			item: "roots:catalyst_plate"
+		}]
+	}]
+}

@@ -2,10 +2,11 @@
 	title: "Plant Construction 101",
 	x: -9.5d,
 	y: -6.0d,
+	description: "Your a real plant engineer now",
 	text: [
-		"Congratulations if your seeing this that means you've encountered all multi blocks.",
+		"Congratulations on aquiring all multiblock plants or breaking into someones base and stealing them we have no way of confirming.",
 		"",
-		"Enjoy your reward."
+		"Eitherway a reward is in order and this should be more than enough!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -21,7 +22,8 @@
 	hide: true,
 	tasks: [{
 		uid: "a4fafaf4",
-		type: "checkmark"
+		type: "checkmark",
+		icon: "randomthings:pitcherplant"
 	}],
 	rewards: [{
 		uid: "93e5f835",

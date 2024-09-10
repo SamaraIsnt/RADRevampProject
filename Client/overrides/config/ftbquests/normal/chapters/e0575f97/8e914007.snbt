@@ -1,0 +1,30 @@
+{
+	title: "The Hottest Lollypop",
+	x: -11.0d,
+	y: 1.0d,
+	description: "Rero Rero Rero Rero Rero",
+	text: [
+		"Don't be decieved the Infernal bulb is not a sweet but instead a plant and one of the primary plants used in creating spells and rituals."
+	],
+	dependencies: [
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "534abc71",
+		type: "item",
+		items: [{
+			item: "roots:infernal_bulb"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0e638bc1",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "82e30308",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

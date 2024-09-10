@@ -10,197 +10,154 @@
 		uid: "61a70165",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:log"
+			item: "minecraft:log"
 		}],
-		count: 100000L
+		count: 100000L,
+		consume_items: true
 	},
 	{
 		uid: "b012a5c3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:log",
-			Damage: 1s
+			item: "minecraft:log 1 1"
 		}],
-		count: 100000L
+		count: 100000L,
+		consume_items: true
 	},
 	{
 		uid: "fe1b77f8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:log",
-			Damage: 2s
+			item: "minecraft:log 1 2"
 		}],
-		count: 100000L
+		count: 100000L,
+		consume_items: true
 	},
 	{
 		uid: "70458e36",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:log",
-			Damage: 3s
+			item: "minecraft:log 1 3"
 		}],
-		count: 100000L
+		count: 100000L,
+		consume_items: true
 	},
 	{
 		uid: "e1db3872",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:log2"
+			item: "minecraft:log2"
 		}],
-		count: 100000L
+		count: 100000L,
+		consume_items: true
 	},
 	{
 		uid: "a687abca",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:log2",
-			Damage: 1s
+			item: "minecraft:log2 1 1"
 		}],
-		count: 100000L
+		count: 100000L,
+		consume_items: true
 	},
 	{
 		uid: "ae21c307",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thaumcraft:log_greatwood"
+			item: "thaumcraft:log_greatwood"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "e6048601",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thaumcraft:log_silverwood"
+			item: "thaumcraft:log_silverwood"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "31ab4afe",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "aether_legacy:aether_log",
-			Damage: 1s
+			item: "aether_legacy:aether_log 1 1"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "857c5803",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "aether_legacy:aether_log"
+			item: "aether_legacy:aether_log"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "ea375ddf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "twilightforest:twilight_log"
+			item: "twilightforest:twilight_log"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "bef77b9d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "twilightforest:twilight_log",
-			Damage: 1s
+			item: "twilightforest:twilight_log 1 1"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "c5d2a0e3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "twilightforest:twilight_log",
-			Damage: 2s
+			item: "twilightforest:twilight_log 1 2"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "44429ea3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "twilightforest:twilight_log",
-			Damage: 3s
+			item: "twilightforest:twilight_log 1 3"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "246a4d73",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tropicraft:log"
+			item: "tropicraft:log"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "d4bf68a4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tropicraft:log",
-			Damage: 1s
+			item: "tropicraft:log 1 1"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	},
 	{
 		uid: "7d466026",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "randomthings:spectrelog"
+			item: "randomthings:spectrelog"
 		}],
-		count: 10000L
+		count: 10000L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "d4254e29",

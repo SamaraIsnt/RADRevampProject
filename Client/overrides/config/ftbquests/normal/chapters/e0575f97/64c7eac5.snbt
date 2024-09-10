@@ -1,0 +1,30 @@
+{
+	title: "The Prince Of Pereskia",
+	x: -9.0d,
+	y: 3.0d,
+	description: "Powers not included",
+	text: [
+		"A special gift from druids given to the fairies, pereskia is one of the primary plants used in creating spells and ritual."
+	],
+	dependencies: [
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "5c0eafda",
+		type: "item",
+		items: [{
+			item: "roots:pereskia"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "be6d8b7f",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "d8990b3c",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

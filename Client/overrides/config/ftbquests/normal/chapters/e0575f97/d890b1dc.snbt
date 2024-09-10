@@ -1,0 +1,86 @@
+{
+	title: "Nature's Accelerant",
+	icon: "roots:ritual_germination",
+	x: 1.0d,
+	y: -5.0d,
+	description: "They grow up so slightly faster?",
+	text: [
+		"A simple growth ritual, Germination increases how often a sapling/crops chance of growing."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "c0576593",
+		type: "item",
+		items: [{
+			item: "roots:spirit_herb"
+		}]
+	},
+	{
+		uid: "352baeb3",
+		type: "item",
+		items: [{
+			item: "mysticalworld:aubergine"
+		}]
+	},
+	{
+		uid: "325f6c43",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "8bab8126",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dyeWhite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeWhite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "d48dcbd1",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	}],
+	rewards: [{
+		uid: "750f6ac1",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "da24f335",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "de9fbeee",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

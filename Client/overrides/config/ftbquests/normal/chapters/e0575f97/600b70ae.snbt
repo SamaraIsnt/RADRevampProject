@@ -1,0 +1,24 @@
+{
+	title: "[Place Holder Title]",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"9b0d518f"
+	],
+	tasks: [{
+		uid: "ae0c8d00",
+		type: "item",
+		items: [{
+			item: "roots:mystic_feather"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1d7568d1",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

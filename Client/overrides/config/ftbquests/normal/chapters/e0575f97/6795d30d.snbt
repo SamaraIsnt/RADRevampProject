@@ -1,0 +1,76 @@
+{
+	title: "[Place Holder Title]",
+	x: 7.0d,
+	y: 2.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9d8ff74d",
+		"53a2c6a0"
+	],
+	tasks: [{
+		uid: "fedf9616",
+		type: "item",
+		items: [{
+			id: "roots:wildwood_helmet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "af741a9f",
+		type: "item",
+		items: [{
+			id: "roots:wildwood_chestplate",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "71f5abc2",
+		type: "item",
+		items: [{
+			id: "roots:wildwood_leggings",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8d9571f8",
+		type: "item",
+		items: [{
+			id: "roots:wildwood_boots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6cbb1922",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "917179d0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "37214ff2",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

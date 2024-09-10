@@ -1,0 +1,110 @@
+{
+	title: "Eat Your Greens",
+	icon: "roots:ritual_overgrowth",
+	x: 0.5d,
+	y: -4.0d,
+	description: "Let it grow",
+	text: [
+		"Terra moss is required for a large amount of recipes in roots meaning unless your taking every dungeon you find home you can easily run out of it.",
+		"",
+		"With the overgrowth ritual any cobblestone/stone bricks in range will be converted to mossy versions as long as a water source block is near."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2c0388b5"
+	],
+	tasks: [{
+		uid: "51c291c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sugarcane",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sugarcane"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5173784e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "tallgrass",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any tallgrass"
+				}
+			}
+		}]
+	},
+	{
+		uid: "1bd12a55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5350f371",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "0e73a86c",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}]
+	}],
+	rewards: [{
+		uid: "a07bdd5e",
+		type: "loot",
+		table: 8
+	},
+	{
+		uid: "d76d3070",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "98dbe0c5",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

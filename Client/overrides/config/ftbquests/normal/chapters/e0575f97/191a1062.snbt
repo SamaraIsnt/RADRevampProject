@@ -1,0 +1,78 @@
+{
+	title: "Time Out",
+	icon: {
+		id: "roots:spell_icon",
+		tag: {
+			spell_storage: {
+				s: "roots:spell_time_stop"
+			}
+		}
+	},
+	x: -3.0d,
+	y: 4.5d,
+	description: "Za warudo",
+	text: [
+		"Make the entire world; The world being a small bubble around you stand still with this powerful time manipulating spell."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f342cc17",
+		"4e10fdfb"
+	],
+	tasks: [{
+		uid: "3a89b67d",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}]
+	},
+	{
+		uid: "eac7fd9c",
+		type: "item",
+		items: [{
+			item: "roots:moonglow_leaf"
+		}]
+	},
+	{
+		uid: "24f180eb",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:slowness"
+			}
+		}]
+	},
+	{
+		uid: "003c85d5",
+		type: "item",
+		items: [{
+			item: "roots:pereskia"
+		}]
+	},
+	{
+		uid: "95ea620e",
+		type: "item",
+		items: [{
+			id: "minecraft:clock",
+			tag: {
+				"quark:clock_calculated": 1b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0d020890",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "25300378",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f7bb62a3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

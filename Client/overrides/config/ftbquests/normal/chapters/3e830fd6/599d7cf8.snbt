@@ -2,9 +2,9 @@
 	title: "Let Me Be Precise",
 	x: -15.5d,
 	y: -2.0d,
-	description: "And stop calling me shirley",
+	description: "No one expects the diamond precision",
 	text: [
-		""
+		"So don't give them an oppurtunity to take you by suprise!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -14,11 +14,7 @@
 		uid: "0ccd6407",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 7s
+			item: "uniquecrops:generic 1 7"
 		}],
 		count: 16L
 	},
@@ -26,11 +22,7 @@
 		uid: "3aafdf39",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 8s
+			item: "uniquecrops:generic 1 8"
 		}],
 		count: 4L
 	}],

@@ -1,9 +1,6 @@
 {
 	title: "Thaumic House",
 	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -30,6 +27,7 @@
 		"",
 		"&lLEGEND COMING SOON!!"
 	],
+	can_repeat: true,
 	tasks: [{
 		uid: "ae9fc606",
 		type: "ftbmoney:money",
@@ -39,9 +37,6 @@
 		uid: "bf3c1828",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "capsule:capsule",
 			tag: {
 				color: 4013373,

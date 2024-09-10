@@ -1,0 +1,42 @@
+{
+	title: "Crate Of Random Core Plant",
+	loot_size: 2,
+	rewards: [{
+		item: "roots:moonglow_leaf",
+		count: 24
+	},
+	{
+		item: "roots:pereskia",
+		count: 24
+	},
+	{
+		item: "roots:cloud_berry",
+		count: 24
+	},
+	{
+		item: "roots:dewgonia",
+		count: 24
+	},
+	{
+		item: "roots:stalicripe",
+		count: 24
+	},
+	{
+		item: "roots:baffle_cap_mushroom",
+		count: 24
+	},
+	{
+		item: "roots:infernal_bulb",
+		count: 24
+	}],
+	loot_crate: {
+		string_id: "crate_of_random_core_plant",
+		item_name: "Random Bundle Of Roots Plants",
+		color: 9696578,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

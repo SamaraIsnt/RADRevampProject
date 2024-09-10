@@ -1,0 +1,42 @@
+{
+	title: "[Place Holder Title]",
+	x: 5.0d,
+	y: -2.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"f2f124cb"
+	],
+	tasks: [{
+		uid: "9f6e63dd",
+		type: "item",
+		items: [{
+			item: "roots:runestone"
+		}],
+		count: 8L
+	},
+	{
+		uid: "c8588fd6",
+		type: "item",
+		items: [{
+			item: "roots:chiseled_runestone"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d38e0bdc",
+		type: "loot",
+		table: 63
+	},
+	{
+		uid: "bf32177c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "01400814",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

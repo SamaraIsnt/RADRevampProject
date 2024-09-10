@@ -1,0 +1,39 @@
+{
+	title: "[Place Holder Title]",
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"[This quest will have a proper description and title in a future version]"
+	],
+	dependencies: [
+		"a80da1d6"
+	],
+	tasks: [{
+		uid: "d8683779",
+		type: "item",
+		items: [{
+			id: "roots:fey_pouch",
+			tag: {
+				bag_idMost: -3319152309877782543L,
+				bag_idLeast: -9021373282340654689L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4dc73843",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "3e5996f6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c8ca68c3",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

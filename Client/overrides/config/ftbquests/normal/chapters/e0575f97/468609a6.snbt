@@ -1,0 +1,98 @@
+{
+	title: "I'm Ruined",
+	x: -4.5d,
+	y: 2.5d,
+	description: "You'll rue the day you crossed me",
+	text: [
+		"The final tier of tools and weapons are the runed.",
+		"",
+		"Each tool has a unique effect in regards to their field.",
+		"",
+		"They have slower repair and breaking speed compared to terrastone, but they make up for it with their unique effects."
+	],
+	dependencies: [
+		"bf22be52"
+	],
+	tasks: [{
+		uid: "db28d392",
+		type: "item",
+		items: [{
+			id: "roots:runed_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "df2b2a86",
+		type: "item",
+		items: [{
+			id: "roots:runed_axe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22088568",
+		type: "item",
+		items: [{
+			id: "roots:runed_shovel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cec6b8cd",
+		type: "item",
+		items: [{
+			id: "roots:runed_hoe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4808232c",
+		type: "item",
+		items: [{
+			id: "roots:runed_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -7863132157692916759L,
+						UUIDLeast: -9222912768429744998L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2344180757658749493L,
+						UUIDLeast: -5495955481743980901L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.rusted.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

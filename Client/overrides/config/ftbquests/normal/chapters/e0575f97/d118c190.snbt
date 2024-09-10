@@ -1,0 +1,32 @@
+{
+	title: "Flower Powder",
+	x: -2.0d,
+	y: 3.5d,
+	description: "Wake up & smell the roses",
+	text: [
+		"A large amout of spells & rituals require the usage of petals as one of the catalyst in their creation.",
+		"",
+		"To get those petals find some flowers, yank them out of the earth and shove them into a mortar and get mashing with your pestle."
+	],
+	dependencies: [
+		"f342cc17"
+	],
+	tasks: [{
+		uid: "0f0c378b",
+		type: "item",
+		items: [{
+			item: "roots:petals"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "b3f72669",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "f2aa3dcb",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}
