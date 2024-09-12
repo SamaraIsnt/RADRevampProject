@@ -1,0 +1,1076 @@
+===================================
+RAD-1.12.2 v1.54 --> RAD-1.12.2 v1.55
+===================================
+Updated vampire fangs info to make it more clear how to become a vampire
+
+Reforge Token Changed from 3 > 6
+
+Blacklisted the following mobs from being infernal
+ Sun Spirit
+- Ender Dragon
+ - Ferrous Warnought
+
+Disable ares blessing due to a bug allowing it to work on unintended armour
+Capped the enchantment runed to maximum level 3
+
+Increased additional bonus for aether and twilight forest difficulty from 10 > 25
+
+Buffed/Nerfed multiple weapons in spartan weaponry
+
+	Bolt and Arrow Adjustments
+	Iron Arrow Damage 2.0 > 1.0
+	Diamond Arrow Damage 3.0 > 1.5
+	Explosive Arrow Damage 2.0 > 1.5
+
+	Diamond Bolt Armour Penetration 0.25 > 0.15
+	Diamond Bolt 2.0 > 1.5
+
+Quest fixes
+wording of quest and making sure they work correctly
+
+Added all roots quest and their rewards
+not all of them have proper text/description
+
+Script changes
+mainlly re enabling recipes that have had their bugs fixed
+changing description of vampire fangs to be more detailed
+
+
+# **New Mods**
+## Aqua Acrobatics [Forge]
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics)
+
+## Backups
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/backups)
+
+## MixinBootstrap
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap)
+
+## ConfigAnytime
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/configanytime)
+
+## Sledgehammer
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/sledgehammer)
+
+## CensoredASM
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/lolasm)
+
+## SerializationIsBad
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/serializationisbad)
+
+## Spartan Netherite
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/spartan-netherite)
+
+## MixinBooter
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/mixin-booter)
+
+## Alfheim Lighting Engine
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/alfheim-lighting-engine)
+
+## Red Core
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/red-core)
+
+## Oceanic Expanse
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/oceanic-expanse)
+
+## VintageFix
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/vintagefix)
+
+## Universal Tweaks
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)
+
+## Loading Profiler
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/loading-profiler)
+
+## Fixeroo
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)
+
+
+_________________
+# **Changed Mods**
+## Future MC
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/future-mc)
+
+### Future MC 0.2.20
+Version 0.2.20
+--------------
+
+*   Fix jungle bamboo generation on worlds with multiple biomes
+*   Fix scaffold teleportation behaviour bug
+*   Fix bonemeal issues with Cornflower and Lily of the Valley
+*   Fix Stripped Log issue with Oceanic Expanse
+
+### Future MC 0.2.19
+Version 0.2.19
+--------------
+
+*   Add missing "Next" text to the gamemode switcher
+*   Fix serverside crash with Trident
+
+### Future MC 0.2.18
+Version 0.2.18
+--------------
+
+*   Actually fix Honey Bottle
+*   Add option to disable 1.13 features when Oceanic Expanse is enabled (default true)
+*   Add campfire dispenser behavior (thank you zeng-github01)
+*   Fixed Smithing Recipes added by CraftTweaker not matching damaged tools
+
+### Future MC 0.2.17
+Version 0.2.17
+--------------
+
+*   Fix crashing on startup
+*   Stop bees from trying to fly while pollinating a flower
+*   Add overlay for gamemode switcher
+
+### Future MC 1.12.2 0.2.15
+Version 0.2.15 - Hotfix pt.3:
+-----------------------------
+
+*   Fixed the Loom, now it works again.
+
+### Future MC 0.2.14
+Version 0.2.14 - Hotfix pt.2:
+-----------------------------
+
+*   Fixed a crash with villager trade screen. #337
+
+### Future MC 1.12.2 0.2.13
+Version 0.2.13 - Hotfix:
+------------------------
+
+*   Fixed a crash with honey bottles that happened when CoFHCore wasn't installed. #334
+
+### Future MC 1.12.2 0.2.12
+Version 0.2.12 - A few bugfixes
+-------------------------------
+
+*   Fixed Grindstone crash with broken mod enchantments #332
+*   Fixed Bees not leaving the hive unless blocked in #320 thanks to Slayer321
+*   Fixed missing scaffolding sounds
+*   Fixed scaffolding not breaking instantly
+*   Fixed incorrect dispenser behavior with shears
+*   Fixed bug with CarryOn duplicating Beehives
+*   Snowman now drop their pumpkins when being sheared (configurable) #326
+*   Walls now connect to glass like in Vanilla thanks to tyler-docherty
+*   Fixed typo in "Block of Netherite" (was "Netherite Block") thanks to SeanMC
+
+## Spartan Weaponry
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry)
+
+### SpartanWeaponry-1.12.2-1.6.0.jar
+A few new things for the 1.12.2 version
+
+#### Additions:
+
+*   Backported Scythes with a few differences. Special thanks to Kotlin for making this possible!
+*   Added the "Wide Sweep" as a new Weapon Property. Wide Sweep increases the range of sweep attacks as well as doing full damage across any mobs hit by it. This replaces the "Decapitate" Weapon Trait in newer versions since there aren't any new mob heads in this version
+*   Backported the "Head Damage Bonus" from newer versions too for use with the Scythe.
+
+#### Tweaks:
+
+*   Updated translations for the French and Russian translations (also thanks to Kotlin)
+
+#### Bugfixes:
+
+*   Fixed Quick Strike re-adding invulnerability time to mobs when striking too early (thanks again to Kotlin)
+*   Fixed Longbows not giving arrows the critical effect when fully charged. It only worked with **exact** timing previously
+*   Fixed Throwing Weapon projectiles being deleted when hitting an Armor Stand
+
+### SpartanWeaponry-1.12.2-1.5.3.jar
+##### **Bugfixes:**
+
+- Fixed a specific issue with Infernal Mobs where the dropped throwing weapons are not enchanted
+
+### SpartanWeaponry-1.12.2-1.5.2.jar
+##### **Bugfixes:**
+
+- Fixed throwing weapon enchantments not showing up in JEI
+
+##### **Additions:**
+
+- Added config options to adjust Bolt speed launched from Crossbows
+
+
+## The Aether
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/aether)
+
+### The Aether v1.12.2-1.5.4.0
+The Aether v1.12.2-1.5.4.0
+
+- Mounts are controlled on both game sides.  
+- Valkyrie Queen has better checks for medals.  
+- Silk Touch is compatible with Skyroot tools.
+
+### The Aether v1.12.2-1.5.3.3
+The Aether v1.12.2-1.5.3.3
+
+- Fix softlock caused by non-players placing Aerogel.
+
+- Fix internal model face being visible on Aerogel Stairs.
+
+- Change incorrect Chinese translation lines.
+
+## Ancient Spellcraft
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/ancient-spellcraft)
+
+### AncientSpellcraft-1.12.2-1.7.5.jar
+Version v1.7.5
+--------------
+
+Ancient Spellcraft now also requires MixinBooter and WizardryUtils!!!
+
+#### **Bug Fixes**
+
+- Fixed ancient spell names not appearing in a golden color while in the Arcane Workbench GUI. Fixes #199
+
+- Fixed Wand Soulbinding Upgrade failing to restore items when server is rebooting. Fixes #246
+
+- Fixed Words of Unbinding randomly choosing the upgrade to remove while holding a off-hand upgrade scroll. This only affected wand upgrade scrolls added by Ancient Spellcraft. Fixes #202
+
+- No longer can apply Words of Unbinding spell to scrolls.
+
+feat: Curse Armor temporarily reduces the armor of NPCs. Fixes #208
+
+- Regular Warlock Orbs no longer boost "None" Element Potency (e.g. Magic Missile). Fixes #257
+
+- Added more strict control regarding class-specific spells for NPCs to disallow e.g. a Sage using a battlamge spell. Fixes #225
+
+- Starve spell applies slowness, weakness and hunger on non-player targets. Hunger spell applies hunger and weakness on non-player targets. Fixes #209
+
+- Fix crash with NPCs drinking potions. Fixes [https://github.com/WinDanesz/ArcaneApprentices/issues/21](https://github.com/WinDanesz/ArcaneApprentices/issues/21)
+
+## Open Terrain Generator (OTG)
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/open-terrain-generator)
+
+### OpenTerrainGenerator-1.12.2-v9.5-R2
+OpenTerrainGenerator 1.12.2 v9.5 R2 for Forge and Spigot
+
+Changed BiomeBits from 10 bits to 11 bits (2048) and shifted all other bits up one bit as to increase the amount of possible virtual biomes.
+
+### OpenTerrainGenerator-1.12.2-v9.5-R1
+OpenTerrainGenerator 1.12.2 v9.5 R1 for Forge and Spigot
+
+Bugfixes:
+
+*   Fixed SpawnPointY, now spawning you in either liquid or air and not in solid blocks when using spawn radius.
+*   Fixed nullpointer for SaplingListener causing a crash at sapling growth.
+
+### OpenTerrainGenerator-1.12.2-v9.5
+OpenTerrainGenerator 1.12.2 v9.5 for Forge and Spigot - Compatibility Release
+
+*   Backported FixedRotation: NORTH/EAST/SOUTH/WEST from 1.16.5 (fix the rotation of a bo4 into your desired direction by adding e.g. FixedRotation: North in your .bo4 object file)
+*   Increased Chunk Cache from 128 to 1024 chunks allowing for structures bigger than 128 chunks (e.g. a tunnel that stretches over 128+ chunks)
+*   Increased Virtual Biome ID pool from 1024 to 2048 allowing more than 768 virtual biomes to exist. (256 IDs are reserved for non-virtual biomes)
+*   Updated OTG Repos to improve build process
+
+Forge users may need to delete OTG-Core.jar from /mods/1.12.2 when updating.
+
+Work on modern versions of OTG is ongoing; Mojang's changes to worldgen on the backend have caused unforeseen delays. If you are interested in contributing to OTG, join us on Discord: [https://discord.gg/hPrUb55ZNe](https://discord.gg/hPrUb55ZNe)
+
+### OpenTerrainGenerator-1.12.2-v9.4
+OpenTerrainGenerator 1.12.2 v9.4 for Forge and Spigot
+
+- Fixed a bug where using /otg spawn with a bo4 would cause the game to freeze.  
+- Fixed a bug where using /otg spawn with a bo4 and developermode:true would report structure spawn but no structure actually spawned.  
+- Fixed a bug where using /otg spawn with a bo4 stopped working for worlds created with developermode: true after reboot.  
+- /otg export now cleans bo caches immediately, no restart/relog needed, for both developermode true/false.  
+- Minor optimisations for BO4's.  
+- Fixed bugs for multiverse and hybrid servers adding custom dimensions (thanks @Petrus).
+
+* For Forge, be sure to delete OTG-Core.jar from /mods/1.12.2 when updating.
+
+### AncientSpellcraft-1.12.2-1.7.4.jar
+Version v1.7.4
+--------------
+
+Ancient Spellcraft now also requires MixinBooter and WizardryUtils!!!
+
+#### **Bug Fixes**
+
+  
+- Fix astral diamond ore worldgen  
+- Kairos' Momentous Medallion no longer triggers the effect of the Cursed Pendant  
+- Changed warlock structure (they have tents now)  
+- Fixed lectern crash  
+- Limit max dim size increase by Dimensional Disc  
+- Fixed sage spawns in sage hills
+
+
+### AncientSpellcraft-1.12.2-1.7.3.jar
+Version v1.7.3
+--------------
+
+Ancient Spellcraft now also requires MixinBooter and WizardryUtils!!!
+
+#### **Bug Fixes**
+
+  
+- Fixed Warlock Orb dupe issue with Pocket Dim. Fixes #253  
+- The potency of Runeword spells now scales with spell blade tier  
+- Renamed "Sage Tome Empowerment Upgrade" to "Class Weapon Empowerment Upgrade" as it works with all class weapons now  
+- The shields of evil battlemages now can be disabled using axes  
+- Fixed structure crash. Fixes #254  
+- Fixed warlock armor tooltip (+15% potency)  
+- Fixed Scroll of Unsealing not being consumed when used  
+- Fixed Arcane Walls displaying "This arcane barrier can only be dispelled by a Scroll of Unsealing" even when a Scroll of Unsealing is being used  
+- Fixed battlemage spawns
+
+
+### AncientSpellcraft-1.12.2-1.7.2.jar
+Version v1.7.2
+--------------
+
+#### **Features**
+
+- Config option to blacklist blocks from being absorbed with Absorb Artefact  
+- Improved artefact ordering in creative inventory (effective for new worlds only)  
+- Lowered range of Absorb Object spell  
+  
+
+#### **Bug Fixes**
+
+**- Fixed crash with drinking potions**
+
+- Fix Runic Hammer model (handheld)
+
+
+### AncientSpellcraft-1.12.2-1.7.1.jar
+Version v1.7.1 - 3/30/2024
+--------------------------
+
+### Release highlights
+
+*   **MixinBooter and WizardryUtils are now dependencies**
+*   **Warlock have their own spell casting item and spells, tiered and per element - the Warlock Orb**
+*   Implemented a new branch of magic - warlocks have acces to _chaos_ magic with a bunch of new _chaos_ spells
+*   More means to gather resources! Added **Crystal Silver Ore** and **Lunar Flax** for Enchanted Filament
+*   More structures and better worldgen! Also includes a small dungeon. Plus, the existing structures now have multiple variants, so you'll never know what you'll find
+*   MixinBooter is now a dependency, but with it, several new features became now possible and were added
+*   WizardryUtils is now a dependency, used for common code
+*   Tweaks to the base game (e.g. Healing Potions hurting anything with Curse of Undeath)
+*   Many new artefacts
+*   The Arcane Barrier now works for sure
+*   New Rituals
+*   Friendly class wizards
+
+#### **Features**
+
+- Buffed coal amount from the Bottomless Coal Bucket artefact (2-5 -> 5-15)
+
+- Warlock content, remove ItemNewArtefact, added MixinBooter dependency. code refactoring
+
+- Animated 'Conjured Bows' are now shooting spectral arrows
+
+- Increased spell blade (battlemage sword) elemental potency per tier (13%,25%,38%,50%).
+
+- Added Wizardry Utils as a dependency
+
+- Added Lunar Flax. A rare plant that drops Enchanted Filament. The plant is only harvestable with Shears, and only during the night, otherwise it doesn't drop anything. Drops twise as much Filament during midnight.
+
+- Sage tomes render as 3D
+
+- The Eagle Eye spell can be interrupted early by a second cast.
+
+- Added a lot more stuff
+
+#### **Bug Fixes**
+
+- Can't overfill the Pensive artefact
+
+- Fixed pensive visual resetting
+
+- Fixed Arcane Barrier ownership and radius resetting (and kicking players out of their own barrier)
+
+- Fixed a bug with Perfect Theory spells not overriding each other when a different Perfect Theory spell was bound to the same slot
+
+- Battlemage tents no longer spawn too deep in the ground
+
+
+### AncientSpellcraft-1.12.2-1.6.3.jar
+Version v1.6.3 - 2/3/2024
+-------------------------
+
+### What's Changed
+
+#### **Features**
+
+- Added a help message upon interacting with an arcane barrier
+
+- Added support for modded curses for the Dispel Item Curse spell (support for Charm mod and So Many Enchantments by default). Fixes #227
+
+#### **Bug Fixes**
+
+- Added missing spell icon for Withdraw Life
+
+- Added name and description for Runeword: Expose spell. Fixes #243
+
+- Added missing icon for Sufferance spell. Fixes #243
+
+
+### AncientSpellcraft-1.12.2-1.6.2.jar
+Version v1.6.2 - 1/30/2024
+--------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Revert Change: Spell Blade base mana cost for a basic hit is set to 0 (can be changed in config). Relates to #228"
+
+
+### AncientSpellcraft-1.12.2-1.6.1.jar
+Version v1.6.1 - 1/28/2024
+--------------------------
+
+### What's Changed
+
+#### **Features**
+
+- Added recipe for Runic Hammer
+
+- Smelting Recipe for Arcane Anvils (=2x Crystal Silver Nuggets). Closes #242
+
+- Crafting recipe for Runic Shield. Closes #240
+
+- Removed Ancient Compendium Patchouli book, use the Wizard's Handbook for A.S. documentation
+
+
+### AncientSpellcraft-1.12.2-1.6.0.jar
+Version v1.6.0 - 1/27/2024
+--------------------------
+
+### What's Changed
+
+#### **Features**
+
+- Small buff to Candlelight's light level
+
+- Increased Runeword: Imbue charge count 6->10 ; increased Glyph of Alchemy bonus charge modifier 4x->6x
+
+- Beanstalk can now grow vines downwards when sneak-cast.
+
+- Intensifying Focus no longer reduces spell potency and blast. Fixes #180
+
+- Added the Mystic Scroll
+
+- Added many new runewords and charm artefacts
+
+- Added the Runic Shield
+
+- Added the Runic Hammer
+
+- Contingency - Immobilization now help against spiderweb or quicksand. Fixes #200
+
+- Increased Ghost Skeleton Mage spawn chance 15%->30%. Fixes #194
+
+- Hostile common Healing element Skeleton Mages now use Magic Missile instead of Arcane Jammer. (Or Radiant Spark, if Rise of the Animagus is installed)
+
+- Lowered Burrow's tier advanced->apprentice. Fixes #210
+
+- Lowered the blocking position of the Runic Shield to make aiming easier. Fixes #222
+
+- Increased Battlemage sword spell slot count 3->5.
+
+- Increased Battlemage swords' spell potency from 1/3 to 1/2 of the potency bonus of wands (7.5,15,22.5,30)
+
+- Buffed Runeword - Restoration
+
+- Documentation in the Wizard's Handbook
+
+- All Elemental Crystal Ore worldgen parameters are now exposed to config
+
+- Exposed all ore worldgen parameters to configs
+
+- Added Crystal Silver (Nugget) Ore and Astral Diamond (Shard) Ore
+
+- Crafting recipe for 9x Magic Crystal Shards -> 1x Magic Crystal
+
+- Added missing sounds for a bunch of spells
+
+- Added Runeword - Sealbreaker
+
+- Ritual runes can be placed in all directions
+
+- Renamed the old Runic Hammer artefact to Jeweller's Hammer
+
+- Config list option to set what items the Crown of the Merchant King artefact adds to wizard trades (scrolls by default)
+
+- Some more Runesmithing spells
+
+- Spell Blade base mana cost for a basic hit is set to 0 (can be changed in config). Relates to #228
+
+- Dispel Item Curse spell works on modded curses (enchantments) as well, if added to the config. Relates to #227
+
+- Improved the visuals of Anti-Magic Field spell
+
+- Contingency - Immobilization should work against BoP quicksand. Fixes #200
+
+- Silencing Sigil can be dispelled by a second cast. Fixes #176
+
+- Added Runesmithing: Fortify
+
+#### **Bug Fixes**
+
+- Fixed Phial of Eternal light not giving any light. Fixes #149
+
+- Fixed the Oaken Talisman not giving regeneration effect
+
+- Fixed the Scroll of Imbuement. Fixes #142
+
+- Fixed crash with Summon Quicksand scroll and dispensers
+
+- Fixed Arcane Barrier wobbling (#151) (by 19-creator)
+
+- Sage spell books (Mystic Spell Book) now has its own GUI texture
+
+- Conjure Cake is now a sage spell, added missing spell icon. Fixes #160
+
+- Sage spells can be bound to scrolls. Fixes #167
+
+- Fixed crash with Pocket Library. Fixes #179, fixes #141
+
+- Sage spells can be bound to scrolls
+
+- Golden Scroll holder now only condenses mana if it actually has a Condensing scroll. Fixes #170
+
+- Fixed Skull Sentinel and Spectral Army spell properties (looting,trading, treasure). Fixes #166
+
+- Fix case
+
+- Unbreaking/Mending can no longer be applied to Spell Blades. Fixes #172
+
+- Fixed Condensing Update in Golden Scroll Holder. Fixes #223
+
+- Fixed Curse of Death not killing the player. Fixes #220
+
+- NPCs can cast Pyrokinesis and Mass Pyrokinesis. Fixes #211
+
+- Fixed Animated Wand from Animate Weapon does not benefit from Siphon wand upgrade. This generally fixes any NPCs using a spellcasting item with Siphoning. Fixes #219
+
+- Fixed Conjure Creeper, Nether Guard, Summon Zombie Pigmen spell type (Utility->Minion). Fixes #217
+
+- Pocket Library no longer destroys blocks and has space checks. Fixes #216
+
+- Fixed metamagic effects not being used up by one spellcast
+
+- Fixed Arcane Augmentation not stacking with wand blast and range. Fixes #203
+
+- Added Metamagic - Projectile incompatible spells config list, made Conflagration castable with metamagic (and NPCs). Fixes #201
+
+- Tome Warp reduces the Sage Tome's mana. Fixes #186
+
+- Words of Unbinding can be cast via scroll
+
+- Mushroom strength now scales with spell potency for the Fairy Ring, Sporeling's Aid and Wild Sporeling spells
+
+- Healing Mushrooms now damage undeads
+
+- Fixed Sage Tome Sentience Upgrade tooltip
+
+- Fixed Spell having full damage and spellcasting without battlemage armor. Fixes #239
+
+- Fix json
+
+- Storage Upgrades on spell blades won't cause basic attacks to consume mana when a Runic Shield is held
+
+- Arcane Anvil cannot receive Crystal Silver Ingots to turn into Crystal Silver Plating. Fixes #237
+
+- Fixed Armageddon spell not consuming mana and not summoning meteors in the right direction. Armageddon spell no longer spawns projectiles close to the caster.
+
+- Fix: Fixed Fimbulwinter spell not consuming mana, improved visuals. Fimbulwinter spell no longer spawns projectiles close to the caster.
+
+- Updated many spell properties regarding NPC or dispenser casting. Fixes #236
+
+- Fixed Runeword: Briar. Fixes #232
+
+- Updated Runeword descriptions. Fixes #231
+
+- Fixed wands keeping assigned spells, even after removing spell slots gained from Attunement upgrade scrolls (using Word of Unbinding). Fixes #229
+
+- Fixed wands keeping assigned spells, even after removing spell slots gained from Attunement upgrade scrolls (using Word of Unbinding). Fixes #229
+
+- Crystal Mine and Might & Magic are Ancient Spells set to being castable by NPC Wizards. Fixes #226
+
+- Fixed some incorrect Spellbook descriptions. Fixes #224
+
+#### **Refactoring**
+
+- Refactor ItemAmnesiaScroll
+
+
+## DimensionalDoors
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/dimensionaldoors)
+
+### Dimensional Doors - 3.2.2 - Forge
+*   Changed the monolith translation key to mob_monolith for consistency and compatibility with Maelstrom Mod
+
+### Dimensional Doors - 3.2.1 - Forge
+*   Fixed an invulnerable state that happened when other mods canceled EntityTravelToDimensionEvent after attempting to go through a door
+*   Player attributes are now requested after each teleport to prevent some desync issues
+*   Fixed an edge case where dimensional dungeons could fail to generate after going too deep
+*   Fixed some minor translation inconsistencies
+
+### Dimensional Doors - 3.2.0 - Forge
+*   Fixed a crash when catching the death event in pocket dimension when the player's food stats don't exist
+*   Eternal fabric now tries to teleport you back to your respawn position
+*   Replaced the enableDecayDrops config option with decayDropChance
+*   Fixed the clusterDimBlacklist and gatewayDimBlacklist config options
+*   Restored the original eternal fabric texture
+*   Fixed rain occuring in pocket dimensions
+*   Made Gold item names more consistent
+*   Fixed a few other lang issues
+*   Added a small cooldown and a teleport sound to the rift blade
+
+## Electroblob's Wizardry
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/electroblobs-wizardry)
+
+### Electroblob's Wizardry - 4.3.14 - MC 1.12.2
+Version 4.3.14 changelog
+------------------------
+
+### Fix
+
+- Fixed a bug that caused stackable artefacts to alway double their effect
+
+### Electroblob's Wizardry - 4.3.13 - MC 1.12.2
+Version 4.3.13 changelog
+------------------------
+
+### Feature
+
+- The Amulet of Anchoring also prevents the Telekinesis spell from knocking items out of the wearer's hand. (Previously it only granted protection against being moved by Greater Telekinesis) - WinDanesz
+
+- Implemented DPS check for heal aura, adjusted targeting criteria for summoned creatures - ipdnaeip (#864)
+
+- Tweaked heal methods - ipdnaeip (#864)
+
+- Fixed flamecatcher ammo loss - ipdnaeip (#864)
+
+- Updated Enrage target and expanded spellcasting item compatibility for movement speed charm - by ipdnaeip (#864)
+
+- Update zh_tw.lang translation by ScoTWT (#709)
+
+- Update ko_kr.lang translation by red1854th (#714)
+
+- [For devs] made EntityWizard.trades public so that addon devs can manipulate trades - WinDanesz
+
+- [For devs] Added methods for retrieving entities within a cylinder, replaced radius-based methods - ipdnaeip (#864)
+
+- [For devs] Added WandHelper.rechargeManaOnApplyButtonPressed static method for easier mana recharging across addons - WinDanesz
+
+  
+
+### Fix
+
+- Spells are now sorted alphabetically by their names, instead of first being sorted by modid by ipdnaeip
+
+- Fixed all synchronized WizardData stored variables on dedicated servers. This issue was causing e.g. the Ancient Compass to not display its targets on servers - WinDanesz (#857)
+
+### Electroblob's Wizardry - 4.3.12 - MC 1.12.2
+Changelog
+---------
+
+Version 4.3.11 changelog
+------------------------
+
+### Feature
+
+- [For devs] Added getApplicableItems() method to Spell.java
+
+- Added teleport_self_large_distance forfeit (sorcery)
+
+- **Support for addon content in the Wizard's Handbook!**  
+
+### Fix
+
+- Fixed clear button in the Arcane Workbench and Attunement Upgrades removing spell slots
+
+- Probably fixed a recurring Handbook crash for good
+
+- Increased the tick rate of continuous spells, making them more reliable (#849 by ipdnaeip)
+
+## Wizardry Golems
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/wizardry-golems)
+
+### WizardryGolems-1.12.2-1.3.2.jar
+Version v1.3.2 - 2/25/2024
+--------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed optional dependency on Ancient Spellcraft causing a crash if AS is not present. Fixes #5
+
+### WizardryGolems-1.12.2-1.3.1.jar
+Version v1.3.1 - 2/25/2024
+--------------------------
+
+### What's Changed
+
+#### **Features**
+
+- Spark Golems deal a weak chain lighting effect with basic attacks
+
+#### **Bug Fixes**
+
+- Terracotta golems are supposed to be small
+
+
+
+### WizardryGolems-1.12.2-1.3.0.jar
+Version v1.3.0 - 2/25/2024
+--------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed curseforge project id
+
+- Fixed build
+
+- Remove debug log line
+
+- Flame Golems are now smarter and won't use Ring of Fire for ranged combat
+
+#### **Features**
+
+- Golems are now immune to elemental damage of their own element
+
+- Improved targeting AI for all golems
+
+- Lowered Flame Golem health to 80
+
+- Lowered Winter Golem health to 80
+
+- Mushroom Golems have 50% chance to spawn a ring of mushrooms around them on death (depends on Ancient Spellcraft)
+
+- Strawthorn golems now have thorns and deal retaliatory damage. Slightly increased the thorn bush placement frequency as well
+
+- Winter Golems cause ice to rain from the sky
+
+- Added Lightning Golemancy
+
+- Lowered the tier of Ring of Flame Trail to Uncommon
+
+- Snow and Ice Golems heal in very cold biomes
+
+- Steaming Netherrack Amulet no longer causes block damage and fire. Furnace Golems explode in much larger explosions
+
+- Each attack of Furnace Golems have 33% chance to spawn burning embers and 50% chance with each attack to cause a small steam explosion
+
+- Furnace Golems spawn with some fuel when summoned
+
+- Mushroom Golems can be brown as well
+
+
+
+## WizardryUtils
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/wizardryutils)
+
+### WizardryUtils-1.12.2-1.2.3.jar
+Version v1.2.3 - 5/12/2024
+--------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Updated dusty item tooltip
+
+#### **Features**
+
+- Added MinionDeathEvent for temporary minions
+
+
+
+### WizardryUtils-1.12.2-1.2.2.jar
+Version v1.2.2 - 3/16/2024
+--------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- EntityAIMinionOwnerHurtTarget and EntityAIMinionOwnerHurtByTarget works with ISummonedCreature mobs
+
+
+
+### WizardryUtils-1.12.2-1.2.1.jar
+Version v1.2.1 - 3/5/2024
+-------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fix body baubles short mapping. Fixes #26
+
+
+
+### WizardryUtils-1.12.2-1.2.0.jar
+Version v1.2.0 - 1/27/2024
+--------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed attribute lang keys
+
+- WizardryUtils from now will only attach its dynamic/summoned item capability to items that are actually used by dynamic conjuration spells. This should fix many incompatibility/broken recipe issues.
+
+#### **Features**
+
+- Implemented potency, cost, duration, blast, range and cooldown attribute modifiers for each element. These can be applied to any handheld/armor/bauble items. They are named as attribute.name.wizardryutils.<element name><modifier> (e.g.: attribute.name.wizardryutils.SorcerySpellRange)
+
+
+
+## Just Enough Items (JEI)
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/jei)
+
+### jei_1.12.2-4.16.1.1012.jar
+### Current release 4.16.1.1012
+=
+## JourneyMap
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/journeymap)
+
+### journeymap-1.12.2-5.7.1p2
+JourneyMap 1.12.2-5.7.1p2 for Minecraft 1.12.2
+==============================================
+
+5.7.1p2
+
+*   Performance fix, fixed object allocations
+
+### journeymap-1.12.2-5.7.1p1
+JourneyMap 1.12.2-5.7.1p1 for Minecraft 1.12.2
+==============================================
+
+5.7.1
+
+*   Api Fix
+
+## Mowzie's Mobs
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs)
+
+### Mowzie's Mobs - 1.5.8 (2024)
+*   The tunneling ability in geomancy can be turned off via config. Due to requests from modpack makers
+
+## Recurrent Complex
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex)
+
+### RecurrentComplex-1.4.8.6.jar
+**1.4.8.6**
+
++ There is now a new config option called `avoidPlacerChunkGeneration`. It can be used to decrease the amount of cascading chunk generation, if carefully tuned with other changes. You can read about it here: [https://github.com/NoMoreUsernames999/Recurrent-Complex-Wiki/wiki/Avoiding-cascading-chunk-generation](https://github.com/NoMoreUsernames999/Recurrent-Complex-Wiki/wiki/Avoiding-cascading-chunk-generation)  
++ /#gen now supports a --y parameter, to generate at a constant or relative height.  
++ If repeats are 0 in static generation patterns, the structure will not repeat in that axis instead of crashing.  
++ Cascading chunk generation log messages will now inform you of the structure causing it.  
+* If redstone triggerable is true, spawn script blocks will now place into the world, even if spawn triggerable is false.  
+
+### RecurrentComplex-1.4.8.5.jar
+**1.4.8.5**
+
+* Includes a fix for a build issue. This should fix OpenJ and Temurin compatibility. (thanks @Almighty-Satan (no heresy intended 😉))
+
+## Roots
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/roots)
+
+### Roots-1.12.2-3.1.9.2.jar
+Fixed light drifter allowing players to teleport.
+
+### Roots-1.12.2-3.1.9.1.jar
+Ok I _swear_ it works this time.
+
+3.1.9 Fixes:
+
+*   Fixed guide advancement.
+*   Fixed crash when using firestarter on a pyre.
+*   Made Light Drifter more stable when changing dimensions mid-spell.
+*   Fixed crash when opening the spell library on servers.
+*   Fixed Elemental Soil needing to see the sky to become Caelic Soil.
+
+3.1.9.1 Fixes:
+
+*   Fixed crashes due to access transformer not being included.
+
+### Roots-1.12.2-3.1.8.jar
+Fixes:
+
+*   ConcurrentModificationException when opening Spell Library
+*   Syncing when changing dimensions while the Light Drifter (spectator mode) spell is active
+
+## Storage Drawers
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
+
+### Storage Drawers-1.12.2-5.5.1
+Changes since sd-5.5.0:
+
+*   Enable crafttweaker integration, always - **Colin Wong** (08 Aug 2024)
+*   initial conversion - **Colin Wong** (08 Aug 2024)
+
+## Thaumic Augmentation
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation)
+
+### ThaumicAugmentation-1.12.2-2.1.13.jar
+Fixed the issue introduced in the last update that made many mods that use mixins crash on startup
+
+### ThaumicAugmentation-1.12.2-2.1.12.jar
+*   Fixed some recipes not outputting the correct number of items
+*   Fixed the thaumostatic harness having glitchy behavior when used in creative mode
+*   Added a config option to disable the warding tick handlers for modpacks where it is expensive (will be better optimized in the future)
+*   Fixed the mod being incompatible with other mods that transform the Configuration class
+*   Fixed warding not fully protecting some blocks like Thaumcraft wood
+*   Fixed the impetus diffuser wasting impetus without doing any work if only extremely small amounts are available to it
+*   Fixed a crash if a dead entity's projectile hits a void shield
+*   Made an eldritch guardian fog check more defensive to avoid potential crashes
+
+## Thaumic JEI
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/thaumic-jei)
+
+### ThaumicJEI-1.12.2-1.7.0.jar
+Changed hideRecipesIfMissingResearch default to true, closes #67 Use ThaumcraftFix to make the recipes sync when unlocked
+
+Fixed Arcane Workbench recipe transfer, closes #40
+
+## Thaumic Wonders
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/thaumic-wonders)
+
+### thaumicwonders-1.8.4.jar
+v1.8.4
+------
+
+*   Reverted to Forge 14.23.5.2768
+
+### thaumicwonders-1.8.3.jar
+*   Fixed a memory leak with Void Fortress Armor, thanks Aqua!
+
+## Corail Tombstone
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone)
+
+### Corail Tombstone 4.6.8 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.20.4  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.8 - **__**Recommended : 4.6.8  
+**__**Changes 4.6.8:**_  
+- Blessing enchantment level also increases the duration of the received effect  
+- fixes Familiar Stone (issue 228)_**  
+
+### Corail Tombstone 4.6.7 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.20.4  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.7 - **__**Recommended : 4.6.7  
+**__**Changes 4.6.7:  
+**_- fixes to consume a stack of Soul Receptacle on a decorative grave (issue 212)  
+- fixes Prayer Stone and command reset_ankh (issue 211)  
+- reverts loottable change from previous version (issue 218)  
+
+### Corail Tombstone 4.6.6 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.20.4  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.6 - **__**Recommended : 4.6.5  
+**__**Changes 4.6.6:  
+**_- new item Bag Of Seeds  
+- adapts Familiar Stone for survival mode  
+- Lootpools (related to Corail Tombstone) can be edited in your save folder in "tombstone/loottables".  
+They only regenerate if the file is not present, can't be read or if a new version requires an overwrite (creating a bak file of your previous lootpool)  
+- fixes magic items being found on modded chest drop (issue 206)  
+- remove multiple configs related to loot chance  
+
+### Corail Tombstone 4.6.5 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.20.4  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.5 - **__**Recommended : 4.6.5  
+**__**Changes 4.6.5:  
+**_- fixes prayers on entities not having a cooldown  
+- fixes advancement about Easter food  
+- fixes lang on Rabbit Mask & Book of Disenchantment  
+- prevents double death (leading to no grave)  
+- also prevents damage with Ghostly Shape in the LivingDamageEvent  
+
+### Corail Tombstone 4.6.4 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.4  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.4 - **__**Recommended : 4.6.4  
+**__**Changes 4.6.4:  
+**_- new entity Grave Guardian  
+- special trades for the Grave Guardian during Easter  
+- new items Prayer Stone, Book of Scribe, Guardian Stone  
+- new perk Gladiator  
+- fixes easter egg food recipe_**  
+
+### Corail Tombstone 4.6.3 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.4  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.3 - **__**Recommended : 4.6.3  
+**__**Changes 4.6.3:  
+**_- Easter event  
+- fixes Familiar Stone lang (issue 201)_**  
+
+## Roguelike Dungeons -- Fnar's Edition
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/fnars-roguelike-dungeons)
+
+### v2.4.6 KameiB Bug Hunt Patch
+*   ✨🐢 Add KameiB's Turtle Shell novelty item
+*   🐛 Add missing zombie villager to spawnable entities list
+*   🐛 Prevent crash on client-side when using `/help` command
+*   🐛 Fix bug where novelty items were missing enchantments
+*   🐛 Fix bug where dyes were not getting mapped to the correct colours
+*   🐛 Fix issue where some blocks (slabs, leaves, and vines) were mapping incorrectly
+
+Special thanks again to @KameiB for your tireless bug hunting and testing! Best of luck with [Localizator](https://www.curseforge.com/minecraft/mc-mods/localizator) (whose efforts helped to find many of these bugs)!
+
+### v2.4.5 That Update Where KameiB Did the Lang Stuff
+*   🎉 Thanks to @KameiB for adding [language support](https://github.com/fnar/minecraft-roguelike/commit/4dfb012e27406a17dab1ce0318f37ffb189ec493)
+*   [🐛 Fix issue where settings files were being read for each chunk generation](https://github.com/fnar/minecraft-roguelike/commit/5a7988ad649e76aa3b10b8948457354e701e8238) (poor performance, now only read when needed, i.e. during dungeon generation)
+*   [🐛 Prevent replacing end portal frames](https://github.com/fnar/minecraft-roguelike/commit/0e9f7e4226eedafbce210a787b301885d14565dd)
+*   [🐛 Fix issue where hallways were longer than intended](https://github.com/fnar/minecraft-roguelike/commit/57cd180a091af6c8c337bc26bb4c69d2429f868c)
+
+
+_________________
+# **Removed Mods**
+
+## AI Improvements
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
+
+## Bigger Packets Please
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/bigger-packets-please)
+
+## Clumps
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/clumps)
+
+## FastWorkbench
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/fastworkbench)
+
+## Foam​Fix
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod)
+
+## FTB Backups (Forge)
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge)
+
+## Login Shield
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/login-shield)
+
+## Phosphor (Forge)
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/phosphor-forge)
+
+## RandomPatches (Forge)
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/randompatches-forge)
+
+## [SBM] Lizard Doggo
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/sbm-lizard-dogo)
+
+## SwingThroughGrass
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass)
+
+## ReAuth
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/reauth)
+
+
+_________________
+
+Changelog generated by [CF-Changelog-Generator](https://github.com/Charismara/CF-Changelog-Generator)
